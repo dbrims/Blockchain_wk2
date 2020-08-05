@@ -160,7 +160,10 @@ def track_trans(result, coin):
         response_data = requests.get(url)
         return response_data.json() 
 ~~~
-    
+  
+* To access lite coin I am using the bitcoinlib library, and used it accounding to the provided examples:
+    * pip install bitcoinlib to install the package
+    * bitcoinlib examples https://github.com/1200wd/bitcoinlib/blob/master/examples/wallets.py
 * I have hd-wallet-derived included in the repo, but I have providing the instructions for how to set it up:
     * open a new git bash terminal from C:\Program Files\Git\bin\bash.exe do the following commands
         * git clone https://github.com/dan-da/hd-wallet-derive
